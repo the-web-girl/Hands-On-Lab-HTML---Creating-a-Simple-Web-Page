@@ -51,5 +51,28 @@
         </tr>
         
     </table>
+
+    <!-- Add a Feedback Form -->
+    <h2>Insights Submission Form</h2>
+    <form action="/submit-feedback" method="POST">
+        <fieldset>
+            <legend>Your Insights About Thomas J. Watson Are Valued</legend>
+    
+            <!-- Name Field -->
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+    
+            <!-- Email Field -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+    
+            <!-- Comments Field -->
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Share your thoughts about Thomas J. Watson"></textarea><br><br>
+    
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
 </body>
 </html>
